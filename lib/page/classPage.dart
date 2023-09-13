@@ -2200,12 +2200,23 @@ class _ClassPage extends State<ClassPage> {
                   SizedBox(
                     height: 10.0,
                   ),
-                  Text(
-                    "  " + '${subject}' + " - " + '${nameteacher}',
-                    style: TextStyle(
-                      fontSize: 21.0,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  Row(
+                    children: [
+                      Text(
+                        "  " + '${subject}',
+                        style: TextStyle(
+                          fontSize: 21.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      subject != nameteacher ? Text(
+                        " - " + '${nameteacher}',
+                        style: TextStyle(
+                          fontSize: 21.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ) : Text(''),
+                    ],
                   ),
                 ],
               ),
