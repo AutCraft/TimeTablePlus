@@ -46,9 +46,9 @@ TimeTablePlus is a cross-platform mobile and web application built with Flutter.
 
 ## 📸 Screenshots
 
-| Home Screen | Edit Schedule | View Details |
-|:---:|:---:|:---:|
-| <img src="https://via.placeholder.com/200x400?text=Home" width="200"> | <img src="https://via.placeholder.com/200x400?text=Edit" width="200"> | <img src="https://via.placeholder.com/200x400?text=Details" width="200"> |
+| Light Mode | Dark Mode |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/833e8ec0-22f5-4764-bc01-4c8cdbb5d83e" width="200"> | <img src="https://github.com/user-attachments/assets/216b978a-97c3-46e2-b637-c73f75b73810" width="200"> |
 
 ---
 
@@ -153,8 +153,9 @@ Contributions are what make the open source community such an amazing place to l
 
 -----
 
-\<div align="center"\>
+<div align="center"\>
 
 Made with ❤️ by the **TimeTablePlus Team** (Rangsee Vittaya School)
 
-\</div\>
+
+</div\>
